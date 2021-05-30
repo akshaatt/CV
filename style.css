@@ -98,3 +98,27 @@ body {
   color: #fff;
   font-weight: 300;
 }
+
+.text a {
+  color: #fff;
+  text-decoration: none;
+}
+.contactinfo.education li {
+  margin-bottom: 15px;
+}
+.contactinfo.education h5 {
+  color: #03a9f4;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+.contactinfo.education h4:nth-child(2) {
+  color: #fff;
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
+}
+.contactinfo.education h4 {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
