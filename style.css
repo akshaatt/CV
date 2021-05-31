@@ -213,5 +213,15 @@ p {
 }
 @media (max-width: 1000px) {
   .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .interest ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .about .box {
+    grid-template-columns: 1fr;
   }
 }
